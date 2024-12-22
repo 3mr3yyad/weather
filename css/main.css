@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1e202b;
+}
+
+nav{
+    background-color: #1e202b;
+    a.navbar-brand{
+        h1{
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        small{
+            color: #bfc1c8;
+            font-size: 10px;
+            margin-top: 0;
+        }
+    }
+    ul li a{
+        font-size: 14px;
+        font-weight: 400 !important;
+        border: solid 2px transparent !important;
+        border-radius: 100px !important;
+        transition: 0.5s !important;
+    }
+    ul li a:hover{
+        color: rgb(18 203 241) !important; 
+        border-color:rgb(18 203 241) !important;
+    }
+    ul li a.active{
+        border: solid 2px rgb(18 203 241) !important;
+        border-radius: 100px;
+        
+    }
+}
+
+header{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+
+    form{
+        input.search{
+            background-color: #1e202b;
+            color: #fff;
+        }
+    }
+}
+
+section div.row{
+    .br1{
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+    .br2{
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+}
+.head1{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #8d8e94;
+}
+
+.head2{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #8d8e94;
+}
+
+.body1{
+    background-color: #323544;
+    color: #fff;
+    .icons{
+        color: #8d8e94        ;
+    }
+    .fw-bold{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 90px;
+        margin-left: 16px;
+    }
+    h4{
+        font-size: 32px;
+        
+    }
+    img{
+        width: 90px;
+    }
+}
+
+.body2{
+    background-color: #262936;
+    color: #fff;
+}
+
+.lowerDegree{
+    color: #8d8e94;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #262936;
+    input.w-100{
+        background-color: #1e202b;
+    }
+    a{
+        text-decoration: none;
+        margin: 5px;
+        i{
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            display: inline-flex !important; 
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            border-radius: 100%;
+            background-color: #1e202b;
+            color: #0dcaf0;
+            transition: 0.4s;
+        }
+        i:hover{
+            background-color:#0dcaf0; 
+            color: #fff;
+        }
+    }
+    p{
+        margin: 0;
+        color:#8d8e94;
+    }
+}
