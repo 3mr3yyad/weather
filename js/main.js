@@ -71,12 +71,3 @@ function incoming(x) {
 }
 
 search("cairo");
-
-
-
-
-// function getData() {
-//     let myReq = new XMLHttpRequest()
-
-// myReq.open("get","")
-// }
